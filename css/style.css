@@ -4,10 +4,15 @@
 
 .jumbo-image {
     background-image: url("../images/pexels-rahime-gül-19188465.jpg"); 
-    height: 400px;
     width: 100%;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
+.jumbo-image div {
+    height: 600px;
+}
+
