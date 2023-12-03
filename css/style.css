@@ -23,3 +23,9 @@
 .card-container {
     background-color: rgb(63, 76, 235, 0.7);
 }
+
+.skills-card {
+    background-color: rgb(220, 171, 192);
+    padding: 4px;
+}
+
