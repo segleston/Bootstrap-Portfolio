@@ -1,4 +1,4 @@
-.navbar-nav {
+.nav-bar {
     background-color: rgb(63, 76, 235, 0.7);
 }
 
@@ -15,10 +15,6 @@
 .jumbo-image div {
     height: 500px;
 }
-/* 
-.card-container {
-    height: 150px !important;
-} */
 
 .card-container {
     background-color: rgb(63, 76, 235, 0.7);
@@ -29,8 +25,15 @@
     padding: 4px;
 }
 
-.skills-container {
-    width: 80% !important;
-    background-color: rgb(141, 122, 213) !important;
+.info-container {
+    background-color: rgb(141, 122, 213);
 }
 
+a:hover {
+    background-color: rgb(63, 76, 235, 0.7));
+    opacity: 0.5;
+    }
+
+.about-me-container {
+    height: 300px;
+}
