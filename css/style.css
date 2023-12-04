@@ -21,7 +21,7 @@
 }
 
 .skills-card {
-    background-color: rgb(250, 218, 211);
+    background-color: rgb(255, 237, 243);
     padding: 4px;
 }
 
@@ -30,10 +30,20 @@
 }
 
 a:hover {
-    background-color: rgb(63, 76, 235, 0.7));
+    background-color: rgb(63, 76, 235, 0.7);
     opacity: 0.5;
     }
 
-.about-me-container {
-    height: 300px;
+
+
+.footer-section { 
+    height: 100px;
+}
+
+
+
+@media screen and (max-width: 1335px) {
+    .about-me-text {
+       width: 80% !important;
+    }
 }
