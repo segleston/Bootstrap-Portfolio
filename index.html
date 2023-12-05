@@ -24,13 +24,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- nav bar links -->
-            <div class="collapse navbar-collapse d-flex gap-1" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <div class="navbar-nav text-decoration-none">
                     <div class="nav-item  d-flex flex-row fs-3">
-                        <a class="nav-link" aria-current="page" href="#about-me">About me</a>
-                        <a class="nav-link" href="#work">Work</a>
-                        <a class="nav-link" href="#contact-me">Contact me</a>
-                        <a class="nav-link" href="./CV/Sarah Egleston CV.pdf" target="_blank">Resume</a>
+                        <a class="nav-link n-link" aria-current="page" href="#about-me">About me</a>
+                        <a class="nav-link n-link" href="#work">Work</a>
+                        <a class="nav-link n-link" href="#contact-me">Contact me</a>
+                        <a class="nav-link n-link" href="./CV/Sarah Egleston CV.pdf" target="_blank">Resume</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
 
     <!-- Jumbotron -->
     <div class="p-5 jumbo-image">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between ">
             <!-- Photo to the left of the jumbotron -->
             <div class="d-flex flex-column justify-content-end">
                 <img src="./images/Untitled design.png" class="h-50" alt="photo of sarah egleston">
@@ -67,8 +67,9 @@
                         class="card-img-top" alt="Photo of horiseon page">
                     <div class="card-body">
                         <h5 class="card-title text-decoration-underline fs-5">Horiseon</h5>
-                        <p class="card-text fs-6">Project using HTML &  CSS.</p>
-                        <a href="https://segleston.github.io/horiseon-code-refactor/" class="btn info-container shadow-lg">Click
+                        <p class="card-text fs-6">Project using HTML & CSS.</p>
+                        <a href="https://segleston.github.io/horiseon-code-refactor/"
+                            class="btn info-container shadow-lg">Click
                             here!</a>
                     </div>
                 </div>
@@ -97,7 +98,7 @@
                     <img src="images/pexels-irina-iriser-1381679.jpg" class="card-img-top" alt="Placeholder photo">
                     <div class="card-body h-60">
                         <h5 class="card-title text-decoration-underline fs-5">Coming soon!</h5>
-                        <p class="card-text fs-6">Further projects coming soon!</p>
+                        <p class="card-text fs-6">Further projects coming!</p>
                         <a href="https://https://github.com/segleston/" class="btn info-container shadow-lg">Click
                             here!</a>
                     </div>
@@ -225,67 +226,73 @@
     </div>
 
     <!-- card section for about me and contact me -->
-    <div class="container-fluid card-container d-flex flex-lg-row flex-md-column flex-sm-column justify-content-around align-items-center m-0 about-me-container"
+    <div class="container-fluid card-container d-flex flex-lg-row flex-md-column flex-sm-column flex-xs-column justify-content-around align-items-center m-0 about-me-container"
         id="about-me">
         <div class="row w-50 about-me-text">
-            <div class="cardContainer">
-                <h3 class="card-body justify-content-center d-flex text-decoration-underline p-5">About me</h3>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="cardContainer">
+                    <h3 class="card-body justify-content-center d-flex text-decoration-underline p-5">About me</h3>
+                </div>
+                <!-- contents of about me card -->
+                <div class="cardContainer">
+                    <h3 class="card-body  justify-content-center d-flex fs-5 p-3 fw-light text-center lh-sm"> With a
+                        background in Emergency
+                        and Critical Care Veterinary Nursing,
+                        I have extensive experience in quick, effective decision-making under pressure.
+                        Driven by my passion for
+                        problem solving, I recently ventured into the IT realm, embracing the challenge of becoming an
+                        RPA
+                        Developer at Pinnacle Pet Group. Currently, I am undertaking a Front End Web Development
+                        certificate
+                        with edX.</h3>
+                </div>
             </div>
-            <!-- contents of about me card -->
-            <div class="cardContainer">
-                <h3 class="card-body  justify-content-center d-flex fs-5 p-3 fw-light text-center lh-sm"> With a
-                    background in Emergency
-                    and Critical Care Veterinary Nursing,
-                    I have extensive experience in quick, effective decision-making under pressure.
-                    Driven by my passion for
-                    problem solving, I recently ventured into the IT realm, embracing the challenge of becoming an RPA
-                    Developer at Pinnacle Pet Group. Currently, I am undertaking a Front End Web Development certificate
-                    with edX.</h3>
-            </div>
-        </div>
-        <div class="row w-50">
-            <div class="cardContainer">
-                <h3 class="card-body justify-content-center align-items-center d-flex text-decoration-underline p-5"
-                    id="contact-me">Contact me</h3>
-            </div>
-            <!-- contents of contact me card -->
-            <div class="cardContainer">
-                <div class="card-body justify-content-evenly d-flex p-5">
-                    <!-- github link -->
-                    <a href="https://github.com/segleston" target="_blank" class="img-fluid shadow-lg p-2 rounded-5">
-                        <img src="./images/icons8-github-50.png" alt="github logo">
-                    </a>
-                    <!-- Linkedin link -->
-                    <a href="https://www.linkedin.com/in/sarah-egleston/" target="_blank" class="img-fluid shadow-lg p-2 rounded-5">
-                        <img src="./images/icons8-linkedin-50.png" alt="linkedin logo">
-                    </a>
-                    <!-- Link to email -->
-                    <a href="mailto:sarah.c.egleston@gmail.com" class="img-fluid shadow-lg p-2 rounded-5">
-                        <img src="./images/icons8-email-50.png" alt="email icon">
-                    </a>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="cardContainer">
+                    <h3 class="card-body justify-content-center align-items-center d-flex text-decoration-underline p-5"
+                        id="contact-me">Contact me</h3>
+                </div>
+                <!-- contents of contact me card -->
+                <div class="cardContainer">
+                    <div class="card-body justify-content-evenly d-flex p-5">
+                        <!-- github link -->
+                        <a href="https://github.com/segleston" target="_blank"
+                            class="img-fluid shadow-lg p-2 rounded-5">
+                            <img src="./images/icons8-github-50.png" alt="github logo">
+                        </a>
+                        <!-- Linkedin link -->
+                        <a href="https://www.linkedin.com/in/sarah-egleston/" target="_blank"
+                            class="img-fluid shadow-lg p-2 rounded-5">
+                            <img src="./images/icons8-linkedin-50.png" alt="linkedin logo">
+                        </a>
+                        <!-- Link to email -->
+                        <a href="mailto:sarah.c.egleston@gmail.com" class="img-fluid shadow-lg p-2 rounded-5">
+                            <img src="./images/icons8-email-50.png" alt="email icon">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-    <!-- footer -->
-    <footer class="info-container text-center">
-        <h4 class="footer-section mb-0 align-items-center d-flex justify-content-center"><img
-                src="./images/icons8-copyright-24.png"><a href="https://github.com/segleston" target="_blank"
-                class=" text-decoration-none"><b>Sarah Egleston</b></a></h4>
-    </footer>
-    <!-- end of footer
+<!-- footer -->
+<footer class="info-container text-center">
+    <h4 class="footer-section mb-0 align-items-center d-flex justify-content-center"><img
+            src="./images/icons8-copyright-24.png"><a href="https://github.com/segleston" target="_blank"
+            class=" text-decoration-none"><b>Sarah Egleston</b></a></h4>
+</footer>
+<!-- end of footer
     
     -->
-    <!-- links to css -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+<!-- links to css -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 
 </html>

@@ -47,3 +47,8 @@ a:hover {
        width: 80% !important;
     }
 }
+@media screen and (max-width: 600px) {
+    .n-link {
+       padding: 4px;;
+    }
+}
