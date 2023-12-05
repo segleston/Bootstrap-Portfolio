@@ -23,7 +23,7 @@ Please see screenshots of page:
 - coming soon project photo: https://www.pexels.com
 - Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 - flexbox learning: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Logos: 
+- Logos: https://icons8.com/
 
 
 
