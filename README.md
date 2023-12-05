@@ -9,12 +9,12 @@ Portfolio project, to showcase my skills in html, css and bootstrap which I have
 N/A
 
 ## Usage
-Live link: 
+Live link: https://segleston.github.io/Bootstrap-Portfolio/
 
 There is a header and navigation section to let the user know who the portfolio belongs to, and links to each section; About me, Work and a section for users to be able to contact me. Further down the page, there are sections dedicated to the above topics and links to examples of my previous projects. 
 
 Please see screenshots of page:
-![alt text]()
+![alt text](./images/screencapture-127-0-0-1-5501-index-html-2023-12-05-17_35_26.png)
 
 
 ## Credits
